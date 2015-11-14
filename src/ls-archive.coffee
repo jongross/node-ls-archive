@@ -174,7 +174,7 @@ readEntry = (entry, callback) ->
 
 isTarPath = (archivePath) ->
   extension = path.extname(archivePath)
-  extention in ['.tar', 'ova']
+  extension in ['.tar', 'ova']
 
 isZipPath = (archivePath) ->
   extension = path.extname(archivePath)
