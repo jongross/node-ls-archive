@@ -1,11 +1,11 @@
 {
-  "name": "ls-archive",
+  "name": "js-archive",
   "description": "A package for listing and reading files in archive files",
   "version": "1.2.1",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/atom/node-ls-archive/raw/master/LICENSE.md"
+      "url": "http://github.com/jongross/node-ls-archive/raw/master/LICENSE.md"
     }
   ],
   "keywords": [
@@ -19,18 +19,15 @@
     "archives",
     "uncompress"
   ],
-  "author": {
-    "name": "Kevin Sawicki",
-    "email": "kevin@github.com"
-  },
+  "author": "Kevin Sawicki <kevin@github.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-ls-archive.git"
+    "url": "git+https://github.com/jongross/node-ls-archive.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/node-ls-archive/issues"
+    "url": "https://github.com/jongross/node-ls-archive/issues"
   },
-  "homepage": "http://atom.github.io/node-ls-archive",
+  "homepage": "http://jongross.github.io/node-ls-archive",
   "main": "./lib/ls-archive.js",
   "bin": {
     "lsa": "./bin/lsa"
@@ -57,5 +54,6 @@
     "decompress-zip": "0.1.0",
     "rimraf": "~2.2.6",
     "tmp": "0.0.23"
-  }
+  },
+  "license": "ISC"
 }
